@@ -5,7 +5,7 @@ const Home = (props ) => {
 return (
     <div> 
       <h2>Scattered Brains</h2>
-      <p>How to live with an organized matter</p>
+      <p>How to live with an organized mess</p>
       <Link to="/calendar/"><button>Calendar</button></Link>
       <Link to="/tasks/"><button>Tasks</button></Link>
     
