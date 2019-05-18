@@ -1,8 +1,12 @@
 import React from 'react'
+import NavHeader from '../NavHeader/NavHeader'
 
 const Tasks = (props) => {
     return (
-        <div>Tasks</div>
+        <div>
+            <NavHeader/>
+            Tasks
+        </div>
     )
 }
 
