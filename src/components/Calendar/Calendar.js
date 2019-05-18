@@ -1,10 +1,10 @@
 import React from 'react'
  
 
-const Home = () => {
+const Calendar = (props) => {
     return (
-    <div></div>
+    <div> Hello</div>
     )
 }
 
-export default Home;
+export default Calendar;

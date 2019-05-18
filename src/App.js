@@ -9,9 +9,9 @@ render() {
     return (
       <div>
         <Router>
-            <Route path='/' component={Home} ></Route>
-            <Route path='/calendar/' component={Calendar}></Route>
-            <Route path='/tasks/' component={Tasks}></Route>
+            <Route exact path='/' component={Home} ></Route>
+            <Route exact path='/calendar/' component={Calendar}></Route>
+            <Route exact path='/tasks/' component={Tasks}></Route>
         </Router>
       </div>
       
