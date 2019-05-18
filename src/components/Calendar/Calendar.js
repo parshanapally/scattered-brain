@@ -4,8 +4,10 @@ import NavHeader from '../NavHeader/NavHeader';
 
 const Calendar = (props) => {
     return (
-        
-    <div><NavHeader/> Hello</div>
+        <div>
+            <NavHeader/> 
+             Hello
+        </div>
     )
 }
 
