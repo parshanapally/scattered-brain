@@ -1,0 +1,12 @@
+.navheader-container {
+    background-color: bisque;
+    height: 35px;
+    padding: 5px;
+}
+
+.navheader-container a {
+    padding-right: 20px;
+    float: right;
+    text-decoration: none;
+    color: mediumpurple;
+}
