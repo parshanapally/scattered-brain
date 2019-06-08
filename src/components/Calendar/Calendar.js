@@ -1,14 +1,25 @@
-import React from 'react'
+import React, {Component} from 'react'
 import NavHeader from '../NavHeader/NavHeader';
- 
+import Calendar from 'react-calendar';
+import './Calendar.css'
 
-const Calendar = (props) => {
-    return (
-        <div>
-            <NavHeader/> 
-             Hello
-        </div>
-    )
+class CalendarRoute extends Component {
+
+    state = {
+        date: new Date(),
+      }
+    render() {
+        return (
+            <div>
+                <NavHeader/> 
+                <Calendar    
+                    onChange={this.onChange}
+                    value={this.state.date}>
+                </Calendar>
+            </div>
+        )
+    }
+
 }
 
-export default Calendar;
+export default CalendarRoute;

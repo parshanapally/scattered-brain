@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Home from './components/Home/Home'
 import Calendar from './components/Calendar/Calendar'
 import Tasks from './components/Tasks/Tasks'
+import "./App.css"
 
 class App extends Component {
 render() {

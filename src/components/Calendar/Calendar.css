@@ -1,0 +1,18 @@
+
+.react-calendar__tile {
+    padding: 1.75em 1.5em !important;
+    background-color:antiquewhite
+}
+
+.react-calendar {
+    width:500px;
+}
+
+.react-calendar__navigation button {
+    background: lavender;
+    font-size: 15px;
+}
+
+.react-calendar__tile--active {
+    color: blueviolet;
+}
