@@ -29,4 +29,14 @@ describe("Given Tasks", () => {
         let NavHeader = component.find('NavHeader')
         expect(NavHeader).to.have.length(1)
     })
+
+    it('should contain a button', () => {
+        let button = component.find('button')
+        expect(button).to.have.length(1)
+    })
+
+    it('should contain Link', () => {
+        let Link = component.find('Link')
+        expect(Link).to.have.length(1)
+    })
 })

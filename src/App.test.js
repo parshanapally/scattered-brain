@@ -5,6 +5,7 @@ import App from './App'
 import Home from './components/Home/Home'
 import Calendar from './components/Calendar/Calendar'
 import Tasks from "./components/Tasks/Tasks"
+import NewProject from './components/NewProject/NewProject';
 
 describe("Given App", () => {
     let component;
@@ -31,7 +32,7 @@ describe("Given App", () => {
   it('should render routes correctly', () => {
 
       let Route = component.find('Route')
-      expect(Route).to.have.length(3)
+      expect(Route).to.have.length(4)
       expect(Route.at(0).prop('path')).to.equal('/')
       expect(Route.at(0).prop('component')).to.equal(Home)
 
@@ -40,6 +41,9 @@ describe("Given App", () => {
 
       expect(Route.at(2).prop('path')).to.equal('/tasks/')
       expect(Route.at(2).prop('component')).to.equal(Tasks)
+
+      expect(Route.at(3).prop('path')).to.equal('/new-project/')
+      expect(Route.at(3).prop('component')).to.equal(NewProject)
 
 
   })
