@@ -1,0 +1,11 @@
+
+
+.newprojectInput  {
+    max-width:50vh;
+    display: flex;
+    flex-direction: column;
+}
+ .newprojectButton button {
+    max-width:50vh;
+
+}
